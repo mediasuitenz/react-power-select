@@ -1,6 +1,5 @@
 # output
 lib/
-dist/
 coverage/
 
 # dependencies
