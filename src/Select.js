@@ -423,7 +423,7 @@ export default class Select extends Component {
             ref={dropdownRef => (this.dropdownRef = dropdownRef)}
             onRef={dropdown => (this.dropdown = dropdown)}
             className={className}
-            minWidth={this.powerselect.offsetWidth}
+            containerWidth={this.powerselect.offsetWidth}
             options={options}
             selected={selected}
             optionLabelPath={optionLabelPath}
