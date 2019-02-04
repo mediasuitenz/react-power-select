@@ -228,6 +228,8 @@ export default class Select extends Component {
       this.selectOption(highlightedOption);
       this.focusField();
       this.resetSearchAndClose();
+    } else {
+      this.open();
     }
   }
 
